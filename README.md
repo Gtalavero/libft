@@ -1,7 +1,7 @@
 ![MARK](https://raw.githubusercontent.com/Gtalavero/libft/master/assets/success115.png)
 
 # libft
-Proyect about create my own library in C, replicating several typical functions.
+Proyect about create my own library in C, replicating a few functions of the C standard library.
 
 # tested with
 [libft-unit-test by Alelievr](https://github.com/alelievr/libft-unit-test)
