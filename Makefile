@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gtalaver <gtalaver@student.42.fr>          +#+  +:+       +#+         #
+#    By: gtalaver <gtalaverodev@gmail.com>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/18 19:05:10 by gtalaver          #+#    #+#              #
-#    Updated: 2019/12/10 19:43:47 by gtalaver         ###   ########.fr        #
+#    Updated: 2020/07/30 15:12:15 by gtalaver         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,12 +21,14 @@ SRCS		= ft_atoi.c					\
 			  ft_isdigit.c				\
 			  ft_isprint.c				\
 			  ft_itoa.c					\
+			  ft_itoa_base.c			\
 			  ft_memccpy.c				\
 			  ft_memchr.c				\
 			  ft_memcmp.c				\
 			  ft_memcpy.c				\
 			  ft_memmove.c				\
 			  ft_memset.c				\
+			  ft_numlen.c				\
 			  ft_putchar_fd.c			\
 			  ft_putendl_fd.c			\
 			  ft_putnbr_fd.c			\
@@ -45,7 +47,8 @@ SRCS		= ft_atoi.c					\
 			  ft_strtrim.c				\
 			  ft_substr.c				\
 			  ft_tolower.c				\
-			  ft_toupper.c				
+			  ft_toupper.c				\
+			  ft_strjoin_free.c
 SRCS_BONUS	= ft_lstadd_back_bonus.c	\
 			  ft_lstadd_front_bonus.c 	\
 			  ft_lstclear_bonus.c 		\

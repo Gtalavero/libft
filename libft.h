@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gtalaver <gtalaver@student.42.fr>          +#+  +:+       +#+        */
+/*   By: gtalaver <gtalaverodev@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/07 21:47:35 by gtalaver          #+#    #+#             */
-/*   Updated: 2019/12/10 00:08:21 by gtalaver         ###   ########.fr       */
+/*   Updated: 2020/07/30 15:10:47 by gtalaver         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,4 +84,13 @@ void			ft_lstdelone(t_list *lst, void	(*del)(void *));
 void			ft_lstclear(t_list **lst, void (*del)(void *));
 void			ft_lstiter(t_list *lst, void (*f)(void *));
 t_list			*ft_lstmap(t_list *lst, void *(*f)(void *), void(*del)(void *));
+
+/*
+** Additions
+*/
+
+char			*ft_strjoin_free(char const *s1, char const *s2, int to_free);
+unsigned int	ft_numlen(long value, int base);
+char			*ft_itoa_base(unsigned long int value, int base);
+
 #endif
