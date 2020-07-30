@@ -6,7 +6,7 @@
 /*   By: gtalaver <gtalaverodev@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/21 13:39:47 by gtalaver          #+#    #+#             */
-/*   Updated: 2020/07/30 15:12:09 by gtalaver         ###   ########.fr       */
+/*   Updated: 2020/07/30 15:42:18 by gtalaver         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@
 
 char	*ft_strjoin_free(char const *s1, char const *s2, int to_free)
 {
-	char *res;	
-	
+	char	*res;
+
 	res = ft_strjoin(s1, s2);
 	if (to_free & 1)
 		free((void **)s1);

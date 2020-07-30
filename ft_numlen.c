@@ -6,7 +6,7 @@
 /*   By: gtalaver <gtalaverodev@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/01 20:26:39 by gtalaver          #+#    #+#             */
-/*   Updated: 2020/07/01 20:33:29 by gtalaver         ###   ########.fr       */
+/*   Updated: 2020/07/30 15:42:57 by gtalaver         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /*
 ** [ESP]
 ** Cuenta los dígitos de un número "value" dependiendo de su base
-** 
+**
 ** [ENG]
 ** Count the digits of a number "value" depending of its base
 */
