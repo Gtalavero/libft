@@ -1,5 +1,5 @@
 # libft
-Proyect about create my own library in C, replicating a few functions of the C standard library.
+My own library in C, replicating a few functions of the C standard library.
 
 ![MARK](https://raw.githubusercontent.com/Gtalavero/libft/master/assets/success115.png)
 
